@@ -14,6 +14,7 @@
 		FEFBD60424075F7000573490 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEFBD60324075F7000573490 /* Preview Assets.xcassets */; };
 		FEFBD60724075F7000573490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEFBD60524075F7000573490 /* LaunchScreen.storyboard */; };
 		FEFBD61224075F7000573490 /* CristinaDC_Task1_NOBDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFBD61124075F7000573490 /* CristinaDC_Task1_NOBDDUITests.swift */; };
+		FEFBD61E24077C5C00573490 /* WeatherConditions_Through_Settings_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFBD61D24077C5C00573490 /* WeatherConditions_Through_Settings_Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		FEFBD60D24075F7000573490 /* CristinaDC_Task1_NOBDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CristinaDC_Task1_NOBDDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFBD61124075F7000573490 /* CristinaDC_Task1_NOBDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CristinaDC_Task1_NOBDDUITests.swift; sourceTree = "<group>"; };
 		FEFBD61324075F7000573490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEFBD61C2407681900573490 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FEFBD61D24077C5C00573490 /* WeatherConditions_Through_Settings_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherConditions_Through_Settings_Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +104,10 @@
 		FEFBD61024075F7000573490 /* CristinaDC_Task1_NOBDDUITests */ = {
 			isa = PBXGroup;
 			children = (
+				FEFBD61D24077C5C00573490 /* WeatherConditions_Through_Settings_Tests.swift */,
 				FEFBD61124075F7000573490 /* CristinaDC_Task1_NOBDDUITests.swift */,
 				FEFBD61324075F7000573490 /* Info.plist */,
+				FEFBD61C2407681900573490 /* README.md */,
 			);
 			path = CristinaDC_Task1_NOBDDUITests;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEFBD61224075F7000573490 /* CristinaDC_Task1_NOBDDUITests.swift in Sources */,
+				FEFBD61E24077C5C00573490 /* WeatherConditions_Through_Settings_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
