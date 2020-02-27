@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEFBD5FB24075F6E00573490 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFBD5FA24075F6E00573490 /* AppDelegate.swift */; };
+		FEFBD5FD24075F6E00573490 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFBD5FC24075F6E00573490 /* SceneDelegate.swift */; };
+		FEFBD5FF24075F6E00573490 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFBD5FE24075F6E00573490 /* ContentView.swift */; };
+		FEFBD60124075F7000573490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEFBD60024075F7000573490 /* Assets.xcassets */; };
+		FEFBD60424075F7000573490 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEFBD60324075F7000573490 /* Preview Assets.xcassets */; };
+		FEFBD60724075F7000573490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEFBD60524075F7000573490 /* LaunchScreen.storyboard */; };
+		FEFBD61224075F7000573490 /* CristinaDC_Task1_NOBDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFBD61124075F7000573490 /* CristinaDC_Task1_NOBDDUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEFBD60E24075F7000573490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFBD5EF24075F6E00573490 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEFBD5F624075F6E00573490;
+			remoteInfo = CristinaDC_Task1_NOBDD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEFBD5F724075F6E00573490 /* CristinaDC_Task1_NOBDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CristinaDC_Task1_NOBDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFBD5FA24075F6E00573490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEFBD5FC24075F6E00573490 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEFBD5FE24075F6E00573490 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FEFBD60024075F7000573490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEFBD60324075F7000573490 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEFBD60624075F7000573490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEFBD60824075F7000573490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEFBD60D24075F7000573490 /* CristinaDC_Task1_NOBDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CristinaDC_Task1_NOBDDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFBD61124075F7000573490 /* CristinaDC_Task1_NOBDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CristinaDC_Task1_NOBDDUITests.swift; sourceTree = "<group>"; };
+		FEFBD61324075F7000573490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEFBD5F424075F6E00573490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFBD60A24075F7000573490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEFBD5EE24075F6E00573490 = {
+			isa = PBXGroup;
+			children = (
+				FEFBD5F924075F6E00573490 /* CristinaDC_Task1_NOBDD */,
+				FEFBD61024075F7000573490 /* CristinaDC_Task1_NOBDDUITests */,
+				FEFBD5F824075F6E00573490 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEFBD5F824075F6E00573490 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEFBD5F724075F6E00573490 /* CristinaDC_Task1_NOBDD.app */,
+				FEFBD60D24075F7000573490 /* CristinaDC_Task1_NOBDDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEFBD5F924075F6E00573490 /* CristinaDC_Task1_NOBDD */ = {
+			isa = PBXGroup;
+			children = (
+				FEFBD5FA24075F6E00573490 /* AppDelegate.swift */,
+				FEFBD5FC24075F6E00573490 /* SceneDelegate.swift */,
+				FEFBD5FE24075F6E00573490 /* ContentView.swift */,
+				FEFBD60024075F7000573490 /* Assets.xcassets */,
+				FEFBD60524075F7000573490 /* LaunchScreen.storyboard */,
+				FEFBD60824075F7000573490 /* Info.plist */,
+				FEFBD60224075F7000573490 /* Preview Content */,
+			);
+			path = CristinaDC_Task1_NOBDD;
+			sourceTree = "<group>";
+		};
+		FEFBD60224075F7000573490 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FEFBD60324075F7000573490 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FEFBD61024075F7000573490 /* CristinaDC_Task1_NOBDDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEFBD61124075F7000573490 /* CristinaDC_Task1_NOBDDUITests.swift */,
+				FEFBD61324075F7000573490 /* Info.plist */,
+			);
+			path = CristinaDC_Task1_NOBDDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEFBD5F624075F6E00573490 /* CristinaDC_Task1_NOBDD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFBD61624075F7000573490 /* Build configuration list for PBXNativeTarget "CristinaDC_Task1_NOBDD" */;
+			buildPhases = (
+				FEFBD5F324075F6E00573490 /* Sources */,
+				FEFBD5F424075F6E00573490 /* Frameworks */,
+				FEFBD5F524075F6E00573490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CristinaDC_Task1_NOBDD;
+			productName = CristinaDC_Task1_NOBDD;
+			productReference = FEFBD5F724075F6E00573490 /* CristinaDC_Task1_NOBDD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEFBD60C24075F7000573490 /* CristinaDC_Task1_NOBDDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFBD61924075F7000573490 /* Build configuration list for PBXNativeTarget "CristinaDC_Task1_NOBDDUITests" */;
+			buildPhases = (
+				FEFBD60924075F7000573490 /* Sources */,
+				FEFBD60A24075F7000573490 /* Frameworks */,
+				FEFBD60B24075F7000573490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEFBD60F24075F7000573490 /* PBXTargetDependency */,
+			);
+			name = CristinaDC_Task1_NOBDDUITests;
+			productName = CristinaDC_Task1_NOBDDUITests;
+			productReference = FEFBD60D24075F7000573490 /* CristinaDC_Task1_NOBDDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEFBD5EF24075F6E00573490 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = user167360;
+				TargetAttributes = {
+					FEFBD5F624075F6E00573490 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FEFBD60C24075F7000573490 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FEFBD5F624075F6E00573490;
+					};
+				};
+			};
+			buildConfigurationList = FEFBD5F224075F6E00573490 /* Build configuration list for PBXProject "CristinaDC_Task1_NOBDD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEFBD5EE24075F6E00573490;
+			productRefGroup = FEFBD5F824075F6E00573490 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEFBD5F624075F6E00573490 /* CristinaDC_Task1_NOBDD */,
+				FEFBD60C24075F7000573490 /* CristinaDC_Task1_NOBDDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEFBD5F524075F6E00573490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFBD60724075F7000573490 /* LaunchScreen.storyboard in Resources */,
+				FEFBD60424075F7000573490 /* Preview Assets.xcassets in Resources */,
+				FEFBD60124075F7000573490 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFBD60B24075F7000573490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEFBD5F324075F6E00573490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFBD5FB24075F6E00573490 /* AppDelegate.swift in Sources */,
+				FEFBD5FD24075F6E00573490 /* SceneDelegate.swift in Sources */,
+				FEFBD5FF24075F6E00573490 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFBD60924075F7000573490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFBD61224075F7000573490 /* CristinaDC_Task1_NOBDDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEFBD60F24075F7000573490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEFBD5F624075F6E00573490 /* CristinaDC_Task1_NOBDD */;
+			targetProxy = FEFBD60E24075F7000573490 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEFBD60524075F7000573490 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEFBD60624075F7000573490 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEFBD61424075F7000573490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEFBD61524075F7000573490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEFBD61724075F7000573490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CristinaDC_Task1_NOBDD/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CristinaDC_Task1_NOBDD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CDC.CristinaDC-Task1-NOBDD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEFBD61824075F7000573490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CristinaDC_Task1_NOBDD/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CristinaDC_Task1_NOBDD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CDC.CristinaDC-Task1-NOBDD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEFBD61A24075F7000573490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CristinaDC_Task1_NOBDDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CDC.CristinaDC-Task1-NOBDDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CristinaDC_Task1_NOBDD;
+			};
+			name = Debug;
+		};
+		FEFBD61B24075F7000573490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CristinaDC_Task1_NOBDDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CDC.CristinaDC-Task1-NOBDDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CristinaDC_Task1_NOBDD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEFBD5F224075F6E00573490 /* Build configuration list for PBXProject "CristinaDC_Task1_NOBDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFBD61424075F7000573490 /* Debug */,
+				FEFBD61524075F7000573490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFBD61624075F7000573490 /* Build configuration list for PBXNativeTarget "CristinaDC_Task1_NOBDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFBD61724075F7000573490 /* Debug */,
+				FEFBD61824075F7000573490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFBD61924075F7000573490 /* Build configuration list for PBXNativeTarget "CristinaDC_Task1_NOBDDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFBD61A24075F7000573490 /* Debug */,
+				FEFBD61B24075F7000573490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEFBD5EF24075F6E00573490 /* Project object */;
+}
